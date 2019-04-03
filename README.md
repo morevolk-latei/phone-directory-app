@@ -14,7 +14,7 @@ yarn/npm start
 ### wait for a time to let webpack finish bundling then open the url (http://localhost:8082) in your browser
 
 #### I have tried to make things simpler and on the same side with good practices.
-#### technological used in this app are
+#### technologies used in this app are
 * React
 * Redux
 * Webpack
