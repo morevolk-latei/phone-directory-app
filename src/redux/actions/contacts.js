@@ -9,16 +9,7 @@ import { dev } from '../../config/config.json'
 export default {
 	getAllContacts: () =>
 		(dispatch, getState, axios) => {
-			// dispatch({ type: GET_ALL_CONTACTS_INIT })
-
-			// axios.get(`${dev.base_url}restaurant/all`)
-			// 	.then(res => {
-			// 		// console.log(res)
-			// 		dispatch({ type: GET_ALL_CONTACTS_SUCCESS, payload: res.data.data })
-			// 	})
-			// 	.catch(err => {
-			// 		console.error(err)
-			// 		dispatch({ type: GET_ALL_CONTACTS_FAIL, payload: err.response })
-			// 	})
+			// here we can do our async calls if fetching contacts from server
+			// then can dispatch respective action to change the state with new contact list
 		}
 }

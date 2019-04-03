@@ -11,7 +11,7 @@ const initialState = {
 	fetchingAllcontacts: false
 }
 
-export default function restaurant(state = initialState, action) {
+export default function contact(state = initialState, action) {
 	const { type, payload } = action
 
 	switch(type) {
